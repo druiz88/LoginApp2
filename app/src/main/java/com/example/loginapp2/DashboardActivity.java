@@ -19,7 +19,7 @@ import java.net.URL;
 
 public class DashboardActivity extends AppCompatActivity {
 
-    String urladdress="https://druiza88.000webhostapp.com/read_users2.php";
+    String urladdress="https://druiza88.000webhostapp.com/read_users.php";
     String[] id;
     String[] name;
     String[] lname;
