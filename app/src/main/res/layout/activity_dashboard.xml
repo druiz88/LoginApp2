@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/txID"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/txName"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txLName"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Last Name" />
+
+        <TextView
+            android:id="@+id/txEmail"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="54"
+            android:text="E-mail" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:divider="#FFF"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textID"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_weight="20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textFirstName"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_weight="20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textLastName"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_weight="54"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textEmail"/>
+    </LinearLayout>
+
+</RelativeLayout>
